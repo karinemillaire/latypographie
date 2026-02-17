@@ -139,3 +139,14 @@ article {
   align-items: center;
   justify-content: center;
 }
+
+/*info*/
+.info .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.info p {
+    line-height: 40px;
+}
