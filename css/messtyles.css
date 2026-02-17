@@ -31,6 +31,7 @@ h1 {
   font-size: 6rem;
   color: white;
   letter-spacing: 34.56px;
+  margin: 0;
 }
 
 q {
@@ -38,6 +39,7 @@ q {
   font-weight: 100;
   font-size: 3rem;
   letter-spacing: 2.64px;
+  padding-top: 10px;
 }
 
 a {
@@ -49,4 +51,26 @@ h2 {
   font-optical-sizing: auto;
   color: black;
   font-weight: 400;
+}
+
+/*-------------------------------------------------
+COMPONENTS
+----------------------------------------------------*/
+
+/*wrapper*/
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header{
+    background-color: #34495E;
+    margin: 0;
+    white-space: nowrap;
+    height: 200px;
+    display: flex;
+    align-items: center;
 }
