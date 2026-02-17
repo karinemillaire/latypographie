@@ -30,7 +30,8 @@ h1 {
   font-optical-sizing: auto;
   font-size: 6rem;
   color: white;
-  letter-spacing: 34.56px;
+  letter-spacing: 32.56px;
+  line-height: 60px;
   margin: 0;
 }
 
@@ -40,6 +41,7 @@ q {
   font-size: 3rem;
   letter-spacing: 2.64px;
   padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 a {
@@ -66,11 +68,74 @@ COMPONENTS
 
 /*header*/
 
-.header{
-    background-color: #34495E;
-    margin: 0;
-    white-space: nowrap;
-    height: 200px;
-    display: flex;
-    align-items: center;
+.header {
+  background-color: #34495e;
+  margin: 0;
+  padding-top: 69px;
+  padding-bottom: 69px;
+  text-align: center;
+}
+
+/*hero*/
+.hero {
+  padding-top: 71px;
+}
+
+.hero .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.hero h1 {
+  align-self: flex-start;
+}
+.hero p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  letter-spacing: 2.64px;
+  line-height: 60px;
+  padding-top: 10px;
+  align-self: flex-end;
+  padding-right: 60px;
+}
+
+/*regles*/
+
+article:hover {
+  background-color: #bdc3c7;
+}
+
+article {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  width: 1100px;
+}
+
+.gauche {
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+.droite{
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.regles p {
+  border: 5px solid #d35400;
+  width: 210px;
+  height: 210px;
+  border-radius: 100%;
+  color: #d35400;
+  font-size: 1.875rem;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
