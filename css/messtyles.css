@@ -1,0 +1,52 @@
+/*--------------------------------------------------
+GÉNÉRIQUE
+----------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*--------------------------------------------------
+ÉLÉMENTS
+----------------------------------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 6rem;
+  color: white;
+  letter-spacing: 34.56px;
+}
+
+q {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  letter-spacing: 2.64px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  color: black;
+  font-weight: 400;
+}
