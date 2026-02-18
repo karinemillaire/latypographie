@@ -31,7 +31,6 @@ h1 {
   font-size: 6rem;
   color: white;
   letter-spacing: 32.56px;
-  line-height: 60px;
   margin: 0;
 }
 
@@ -42,6 +41,7 @@ q {
   letter-spacing: 2.64px;
   padding-top: 10px;
   padding-bottom: 0px;
+  line-height: 60px;
 }
 
 a {
@@ -94,9 +94,9 @@ COMPONENTS
   font-size: 3rem;
   letter-spacing: 2.64px;
   line-height: 60px;
-  padding-top: 10px;
   align-self: flex-end;
   padding-right: 60px;
+  margin-top: 0;
 }
 
 /*regles*/
