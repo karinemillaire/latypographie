@@ -85,9 +85,11 @@ COMPONENTS
   display: flex;
   flex-direction: column;
 }
+
 .hero h1 {
   align-self: flex-start;
 }
+
 .hero p {
   font-family: "Lato", sans-serif;
   font-weight: 100;
@@ -151,6 +153,12 @@ article {
   line-height: 40px;
 }
 
+.info span {
+  display: block;
+  font-weight: 700;
+  line-height: 40px;
+}
+
 /*footer*/
 
 .footer {
@@ -162,10 +170,10 @@ article {
   justify-content: space-between;
 }
 
-.titre{
-    font-weight: 700;
-    display: flex;
-    align-self: center;
+.titre {
+  font-weight: 700;
+  display: flex;
+  align-self: center;
 
 }
 
@@ -174,7 +182,7 @@ article {
   height: 50px;
   background-color: white;
   border-radius: 100%;
-  border:3px solid #bdc3c7;
+  border: 3px solid #bdc3c7;
   display: flex;
   justify-content: center;
   align-items: center;
