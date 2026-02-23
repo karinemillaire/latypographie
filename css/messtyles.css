@@ -156,7 +156,12 @@ article {
 .info span {
   display: block;
   font-weight: 700;
-  line-height: 40px;
+}
+
+.info{
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin: 0;
 }
 
 /*footer*/
